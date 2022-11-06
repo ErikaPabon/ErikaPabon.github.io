@@ -8,15 +8,15 @@ body {
     font-size: 16px;
   }
   .box{
-    padding: 30px;
+    padding: 100%;
     background-color: #c6e0c8;
     margin: 10px auto;
   }
   .myframe{
-    width: 80px;
-    height: 90px;
+    width: 80%;
+    height: 80%;
     background-color: #81bd86;
-    border:5px solid rgb(15, 70, 27);
+    border:1px solid rgb(15, 70, 27);
     margin:auto;
     border-radius: 10px;
   }
