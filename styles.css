@@ -13,10 +13,10 @@ body {
     margin: 10px auto;
   }
   .myframe{
-    width: 100px;
-    height: 200px;
+    width: 80px;
+    height: 90px;
     background-color: #81bd86;
-    border:5px solid black;
+    border:5px solid rgb(15, 70, 27);
     margin:auto;
     border-radius: 10px;
   }
