@@ -1,4 +1,4 @@
-<!DOCTYPE hmtl>
+<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta content="width=device-width, initial-scale=1">
@@ -7,8 +7,8 @@
 <link href="./styles.css" rel="stylesheet">
 </head>
 <body>
-<div class="box">
-    <div class="myframe">
+<div class="Frame">
+    <div class="box">
     <h1> Erika Pabon</h1>
     </div>
 </div>
