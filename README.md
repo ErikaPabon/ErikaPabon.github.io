@@ -14,7 +14,7 @@
 </div>
 <div>
     <p>Here is a sneak peek of my skills</p>
-    <img src="avatar.png" alt="My Avatar">
+    <img src="https://user-images.githubusercontent.com/89824253/200161654-944520f3-1a59-4b65-80b8-d8cbdf084add.png" alt="My Avatar">
 </div>
 </body>
 </html>
