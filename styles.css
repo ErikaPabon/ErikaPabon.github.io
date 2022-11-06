@@ -7,6 +7,19 @@ body {
     font-family: Tahoma;
     font-size: 16px;
   }
+  .box{
+    padding: 30px;
+    background-color: #c6e0c8;
+    margin: 10px auto;
+  }
+  .myframe{
+    width: 100px;
+    height: 200px;
+    background-color: #81bd86;
+    border:5px solid black;
+    margin:auto;
+    border-radius: 10px;
+  }
   
   h1, p {
     margin: 1em auto;
