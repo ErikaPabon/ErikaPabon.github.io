@@ -1,15 +1,13 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta content="width=device-width, initial-scale=1">
 <meta charset="UTF-8">
-<title>My Page</title>
 <link href="./styles.css" rel="stylesheet">
 </head>
 <body>
 <div class="Frame">
     <div class="box">
-    <h1> Erika Pabon</h1>
+    <h1 class="bold"> Erika Pabon</h1>
     </div>
 </div>
 <div>
