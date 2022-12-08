@@ -29,7 +29,7 @@ function PageTransitions(){
             })
 
             const element = document.getElementById(id);//whatever id is coming from id 
-            element.classList.add('active');
+            element.classList.add('active')
         }
     })
 
