@@ -1,17 +1,10 @@
-# -ErikaPabon-.github.io
+Hello, 
 
-<!DOCTYPE html>
-<html lang="en">
- <head>
-    <meta charset="UTF-8">
-<link href="./styles.css" rel="stylesheet">
-    <title>My Page</title>
-</head>
-<h1>
-My Website
-</h1>
 
-Hello World
+Thank you for reading through this. 
+I create this portofio through an stand alone video offer by @freeCodeCamp.
+To create this responsive website I have use the following tools:
 
-![ErikaPabon](https://user-images.githubusercontent.com/89824253/198898783-1025e3f1-7966-42aa-9a22-f6524bb3087a.jpg)
-</html>
+- Sass for live compiler with CSS
+- Google Fonts
+- Font Awesome
