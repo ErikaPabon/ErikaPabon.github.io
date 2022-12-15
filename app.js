@@ -3,6 +3,8 @@ const sectBtns = document.querySelectorAll('.controlls');//parent
 const sectBtn = document.querySelectorAll('.control');//button
 const allselections= document.querySelector('.main-content');//selecting body/main class
 
+var fields={};
+
 function PageTransitions(){
     //buttons click active class
     for (let i =0; i < sectBtn.length; i++){
@@ -42,3 +44,24 @@ function PageTransitions(){
 }
 
 PageTransitions();
+
+document.addEventListener("DOMContentLoaded", function() {
+    fields.name = document.getElementById('name');
+    fields.email = document.getElementById('email');
+    fields.subject = document.getElementById("subject")
+    fields.request = document.getElementById('request');
+   })
+
+   function isNotEmpty(value) {
+    if (value == null || typeof value == 'undefined' ) return false;
+    return (value.length > 0);
+   }
+
+   class User {
+    constructor(name, email, subject, request) {
+    this.name = name;
+    this.email = email;
+    this.subject = subject;
+    this.request = request;
+    }
+   }
