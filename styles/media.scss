@@ -6,12 +6,13 @@
 @media screen and (max-width: 600px){
     header{
         padding: 0 !important;
+        margin: 0;
     }
     header .right-header{
         grid-row: 1;
         padding-right: 0rem !important;
         width: 90%;
-        margin: 0 auto;
+        margin: 0;
         .name{
             font-size: 2.5rem !important;
             text-align: center;
@@ -25,17 +26,20 @@
     .header-content{
         grid-template-columns: repeat(1, 1fr);
         padding-bottom: 6rem;
+        margin: 0;
     }
 
-    .left-header{
+    .header-content .left-header{
         .h-shape{
             display: none;
+            margin: 0;
         }
     }
 
     .header-content .left-header .image{
         margin: 0 auto;
         width: 90%;
+        margin: 0;
     }
 
     .controlls{

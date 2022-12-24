@@ -1015,9 +1015,11 @@ section {
 @media screen and (max-width: 481px){
   header{
     padding: 0;
+    margin: 0;
   }
   header .right-header{
     padding: 2rem !important;
+    margin: 0;
   }
 
   .theme-btn{
@@ -1028,21 +1030,23 @@ section {
   .header-content{
     grid-template-columns: 1fr;
     padding-bottom: 6rem;
+    margin: 0;
   }
   .header-content .left-header{
     padding: 0;
+    margin: 0;
   }
 
-  .left-header .h-shape{
+  .header-content .left-header .h-shape{
     display: none;
   }
 
-  .right-header{
+  .header-content .right-header{
       grid-row: 1;
       width: 90%;
       margin: 0 auto;
   }
-  .right-header.name{
+  .header-content .right-header .name{
     font-size: 2.5rem !important;
   }
 
