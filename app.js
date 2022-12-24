@@ -45,7 +45,7 @@ function PageTransitions(){
 
 PageTransitions();
 
-document.addEventListener("DOMContentLoaded", function() {
+/*document.addEventListener("DOMContentLoaded", function() {
     fields.name = document.getElementById('name');
     fields.email = document.getElementById('email');
     fields.subject = document.getElementById("subject")
@@ -64,4 +64,4 @@ document.addEventListener("DOMContentLoaded", function() {
     this.subject = subject;
     this.request = request;
     }
-   }
+   }*/
