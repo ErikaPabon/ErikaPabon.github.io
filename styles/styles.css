@@ -405,12 +405,12 @@ section {
   border-radius: 15px;
   display: inline-block;
   font-size: 0.8rem;
-  text-transform: uppercase;
+  text-transform: lowercase;
   font-weight: 500;
 }
 .timeline .timeline-item h5 {
   padding: 1rem 0;
-  text-transform: uppercase;
+  text-transform: lowercase;
   font-size: 1.3rem;
   font-weight: 600;
 }

@@ -318,19 +318,22 @@ section {
                         transition: all .4s ease-in-out;
                         width: 90%;
                     }
-                    .Github{
-                        background-color: var(--color-grey-2);
+                    .html{
+                        background-color: var(--color-secondary);
                     }
-                    .Front-end{
-                        background-color: var(--color-grey-3);
+                    .css{
+                        background-color: var(--color-secondary);
                     }
-                    .Canva{
+                    .js{
                         background-color: var(--color-grey-4);
                     }
-                    .Sql{
+                    .sql{
                         background-color: var(--color-grey-5);
                     }
-                    .Office{
+                    .g-analitics{
+                        background-color: var(--color-grey-1);
+                    }
+                    .office{
                         background-color: var(--color-grey-1);
                     }
                 }
