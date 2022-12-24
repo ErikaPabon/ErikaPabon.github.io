@@ -314,9 +314,11 @@
 @media screen and (max-width: 481px){
     header{
         padding: 0;
+        margin: 0;
     }
-    header .right-header{
+    .header-content .right-header{
         padding: 2rem !important;
+        margin: 0;
     }
 
     .theme-btn{
@@ -327,11 +329,13 @@
     .header-content{
         grid-template-columns: 1fr;
         padding-bottom: 6rem;
+        margin: 0;
     }
 
-    .left-header{
+    .header-content .left-header{
         .h-shape{
             display: none;
+            margin: 0;
         }
     }
 
