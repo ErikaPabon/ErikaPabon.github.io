@@ -8,7 +8,7 @@
         padding: 0 !important;
         margin: 0;
     }
-    header .right-header{
+    .header-content .right-header{
         grid-row: 1;
         padding-right: 0rem !important;
         width: 90%;
@@ -316,9 +316,18 @@
         padding: 0;
         margin: 0;
     }
-    .header-content .right-header{
-        padding: 2rem !important;
+
+    .header-content{
+        grid-template-columns: 1fr;
+        padding-bottom: 6rem;
         margin: 0;
+    }
+    .right-header{
+        padding: auto;
+        margin: 0 auto;
+        .name{
+            font-size: 2.5rem !important;
+        }
     }
 
     .theme-btn{
@@ -326,27 +335,18 @@
         height: 50px;
     }
 
-    .header-content{
-        grid-template-columns: 1fr;
-        padding-bottom: 6rem;
-        margin: 0;
-    }
-
-    .header-content .left-header{
+    .left-header{
         .h-shape{
             display: none;
             margin: 0;
         }
     }
 
-    .right-header{
+   /* .right-header{
         grid-row: 1;
         width: 90%;
         margin: 0 auto;
-        .name{
-            font-size: 2.5rem !important;
-        }
-    }
+    }*/
 
     .header-content .left-header .image{
         margin: 0 auto;
