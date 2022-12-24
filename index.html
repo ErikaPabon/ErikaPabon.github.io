@@ -14,17 +14,7 @@
 <body class="main-content">
 <header class="section sec1 header active" id="home">
     <div class="header-content">
-         <script type="text/javascript">
-            function googleTranslateElementInit() {
-                new google.translate.TranslateElement(
-                    {pageLanguage: 'en'},
-                    'google_translate_element'
-                    );}
-            </script>
-            <script type="text/javascript"src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit">
-                </script>
             <div class="left-header">
-                <div id="google_translate_element"></div>
                 <div class="h-shape"></div>
                 <div class="image">
                     <img src="img/avatar.png" alt="Avatar">
@@ -310,27 +300,18 @@
                                     <i class="fas fa-map-marker-alt"></i>
                                     <span>Location : Oakland, CA, USA</span>
                                 </div>
-                                <p>
-                                    
-                                </p>
                             </div>
                             <div class="contact-item">
                                 <div class="icon">
                                     <i class="fas fa-envelope"></i>
-                                    <span>LinkedIn</span>
+                                    <span>LinkedIn : <a href="https://www.linkedin.com/in/erikaapabontriana/">Erika A. Pabon Triana</a></span>
                                 </div>
-                                <p>
-                                    <span><a href="https://www.linkedin.com/in/erikaapabontriana/">LinkedIn</a></span>
-                                </p>
                             </div>
                             <div class="contact-item">
                                 <div class="icon">
                                 <i class="fas fa-globe-africa"></i>
-                                    <span>Languages</span>
+                                    <span>Languages : English, Spanish</span>
                                 </div>
-                                <p>
-                                    <span>: English, Spanish</span>
-                                </p>
                             </div>
                         </div>
                         <div class="contact-icons">
@@ -357,7 +338,7 @@
                                 <textarea name="request" id="request" cols="15" rows="8" placeholder="Let me know how we can team up.." id="request"></textarea>
                             </div>
                             <div class="btn-con">
-                                 <button type="submit" class="main-btn">
+                                 <button type="submit" class="submit">
                                 <span class="btn-text">Send</span> 
                                 <span class="btn-icon"><i class="fas fa-upload"></i></span>
                                 </button>
@@ -390,6 +371,16 @@
         <i class="fas fa-adjust"></i>
     </div>
     <script src="app.js"></script>
+    <div class="lang-btn" id="google_translate_element"></div>
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement(
+                {pageLanguage: 'en'},
+                'google_translate_element'
+                );}
+        </script>
+        <script type="text/javascript"src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit">
+            </script>
 </body>
 </html>
 
