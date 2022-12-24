@@ -5,16 +5,14 @@
 
 @media screen and (max-width: 600px){
     header{
-        padding: 0 !important;
+        padding: 0 ;
         margin: 0;
     }
     .header-content .right-header{
         grid-row: 1;
-        padding-right: 0rem !important;
         width: 90%;
-        margin: 0;
         .name{
-            font-size: 2.5rem !important;
+            font-size: 1.5rem ;
             text-align: center;
             padding-top: 3rem;
         }
@@ -26,20 +24,17 @@
     .header-content{
         grid-template-columns: repeat(1, 1fr);
         padding-bottom: 6rem;
-        margin: 0;
     }
 
     .header-content .left-header{
         .h-shape{
             display: none;
-            margin: 0;
         }
     }
 
     .header-content .left-header .image{
         margin: 0 auto;
         width: 90%;
-        margin: 0;
     }
 
     .controlls{
@@ -320,13 +315,11 @@
     .header-content{
         grid-template-columns: 1fr;
         padding-bottom: 6rem;
-        margin: 0;
     }
-    .right-header{
+    .header-content .right-header{
         padding: auto;
-        margin: 0 auto;
         .name{
-            font-size: 2.5rem !important;
+            font-size: 1.5rem;
         }
     }
 
@@ -349,9 +342,7 @@
     }*/
 
     .header-content .left-header .image{
-        margin: 0 auto;
         width: 90%;
-
     }
     .about-container{
         grid-template-columns: 1fr;

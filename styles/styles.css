@@ -759,19 +759,17 @@ section {
 
   .header-content .right-header{
     grid-row: 1;
-    padding-right: 0rem !important;
+    padding-right: 0rem;
     width: 90%;
-    margin: 0 auto;
   }
   .header-content .right-header .name{
-    font-size: 2.5rem !important;
+    font-size: 1.5rem ;
     text-align: center;
     padding-top: 3rem;
     }
   }
 
   .header-content .left-header .image{
-    margin: 0 auto;
     width: 90%;
   }
 
@@ -1033,8 +1031,7 @@ section {
     margin: 0;
   }
   .header-content .right-header{
-    padding: 2rem !important;
-    margin: 0;
+    padding: 1rem ;
   }
 
   .theme-btn{
@@ -1045,7 +1042,6 @@ section {
   .header-content{
     grid-template-columns: 1fr;
     padding-bottom: 6rem;
-    margin: 0;
   }
   .header-content .left-header{
     padding: 0;
@@ -1059,14 +1055,12 @@ section {
   .header-content .right-header{
       grid-row: 1;
       width: 90%;
-      margin: 0 auto;
   }
   .header-content .right-header .name{
-    font-size: 2.5rem !important;
+    font-size: 1.5rem ;
   }
 
   .header-content .left-header .image{
-      margin: 0 auto;
       width: 90%;
     }
   .about-container{
