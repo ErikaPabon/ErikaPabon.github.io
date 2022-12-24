@@ -405,12 +405,12 @@ section {
   border-radius: 15px;
   display: inline-block;
   font-size: 0.8rem;
-  text-transform: lowercase;
+  text-transform: uppercase;
   font-weight: 500;
 }
 .timeline .timeline-item h5 {
   padding: 1rem 0;
-  text-transform: lowercase;
+  text-transform: uppercase;
   font-size: 1.3rem;
   font-weight: 600;
 }
@@ -421,6 +421,7 @@ section {
 }
 .timeline .timeline-item p {
   color: var(--color-grey-2);
+  text-transform: lowercase;
 }
 
 /*Portfolio*/
