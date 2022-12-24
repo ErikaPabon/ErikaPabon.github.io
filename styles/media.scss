@@ -5,17 +5,7 @@
 
 @media screen and (max-width: 600px){
     header{
-        padding: 0 ;
-        margin: 0;
-    }
-    .header-content .right-header{
-        grid-row: 1;
-        width: 90%;
-        .name{
-            font-size: 1rem ;
-            text-align: center;
-            padding-top: 3rem;
-        }
+        padding: 0 !important;
     }
     .theme-btn{
         width: 50px;
@@ -25,12 +15,23 @@
         grid-template-columns: repeat(1, 1fr);
         padding-bottom: 6rem;
     }
-
-    .header-content .left-header{
+    .left-header{
         .h-shape{
             display: none;
         }
     }
+    .right-header{
+        grid-row: 1;
+        padding-right: 0rem !important;
+        width: 90%;
+        margin: 0 auto;
+        .name{
+            font-size: 1rem !important;
+            text-align: center;
+            padding-top: 3rem;
+        }
+    }
+    
 
     .header-content .left-header .image{
         margin: 0 auto;
@@ -79,7 +80,7 @@
             grid-template-columns: repeat(1, 1fr);
         }
     }
-    .portfolio{
+    .portfolios{
         grid-template-columns: repeat(1, 1fr);
         padding-bottom: 6rem;
         margin-top: 1rem;
