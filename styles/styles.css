@@ -1062,6 +1062,9 @@ section {
   .header-content .right-header .name{
     font-size: 0.6rem ;
   }
+  .header-content .right-header .name span {
+    font-size: 0.6rem ;
+  }
 
   .header-content .left-header .image{
       width: 90%;
