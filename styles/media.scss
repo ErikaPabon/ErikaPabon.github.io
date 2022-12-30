@@ -3,7 +3,7 @@
 }
 
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 600px){ 
     header{
         padding: 0 !important;
     }
@@ -307,13 +307,14 @@
     }
 }
 
-@media screen and (max-width: 481px){
+@media screen and (min-width: 300px) and (max-width: 481px){ 
     header{
         padding: 0;
         margin: 0;
     }
 
     .header-content{
+        margin: 0;
         grid-template-columns: 1fr;
         padding-bottom: 6rem;
     }

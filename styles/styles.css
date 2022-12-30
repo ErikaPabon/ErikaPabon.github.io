@@ -1025,13 +1025,14 @@ section {
   }
 }
 
-@media screen and (max-width: 481px){
+@media screen and (min-width: 300px) and (max-width: 481px){
   header{
     padding: 0;
     margin: 0;
   }
   .header-content .right-header{
     padding: 1rem ;
+    margin: 0;
   }
 
   .theme-btn{
@@ -1042,6 +1043,7 @@ section {
   .header-content{
     grid-template-columns: 1fr;
     padding-bottom: 6rem;
+    margin: 0;
   }
   .header-content .left-header{
     padding: 0;
