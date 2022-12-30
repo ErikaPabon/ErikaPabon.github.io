@@ -1060,14 +1060,15 @@ section {
       width: 90%;
   }
   .header-content .right-header .name{
-    font-size: 0.6rem ;
+    font-size: 1rem ;
   }
   .header-content .right-header .name span {
-    font-size: 0.6rem ;
+    font-size: 1rem ;
   }
 
   .header-content .left-header .image{
       width: 90%;
+      margin: 0;
     }
   .about-container{
       grid-template-columns: 1fr;
