@@ -307,6 +307,7 @@ section {
             .prog-title{
                 text-transform: uppercase;
                 font-weight: 500;
+                color: var(--color-secondary);
             }
             .progress-con{
                 display: flex;
@@ -708,7 +709,8 @@ section {
         }
     }
 }
-.submit{border-radius: 30px;
+button {
+    border-radius: 30px;
     color: inherit;
     font-weight: 600;
     position: relative;
