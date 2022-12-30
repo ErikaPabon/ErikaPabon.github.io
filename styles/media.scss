@@ -321,7 +321,7 @@
     .header-content .right-header{
         padding: auto;
         .name{
-            font-size: 1rem;
+            font-size: 0.8rem;
         }
     }
 
@@ -331,20 +331,15 @@
     }
 
     .left-header{
+        margin: 0;
         .h-shape{
             display: none;
-            margin: 0;
         }
     }
 
-   /* .right-header{
-        grid-row: 1;
-        width: 90%;
-        margin: 0 auto;
-    }*/
-
     .header-content .left-header .image{
         width: 90%;
+        margin: 0;
     }
     .about-container{
         grid-template-columns: 1fr;
