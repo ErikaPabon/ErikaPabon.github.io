@@ -1049,6 +1049,7 @@ section {
     grid-template-columns: 1fr;
     padding-bottom: 6rem;
     margin: 0;
+    font-size: 1.2rem;
   }
   .header-content .left-header{
     padding: 0;
@@ -1061,12 +1062,12 @@ section {
 
   .header-content .right-header{
     padding: 2rem 0;
-    font-size: 1.2rem;
+    font-size: 1rem;
     margin: 0;
   }
 
   .header-content .right-header .name{
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
   .header-content .right-header .name span {
     font-size: 1.2rem ;
