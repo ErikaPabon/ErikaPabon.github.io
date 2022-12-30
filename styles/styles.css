@@ -1031,10 +1031,6 @@ section {
     padding: 0;
     margin: 0;
   }
-  .header-content .right-header{
-    padding: auto ;
-    margin: 0;
-  }
 
   .theme-btn{
     width: 50px;
@@ -1058,7 +1054,10 @@ section {
   .header-content .right-header{
       grid-row: 1;
       width: 90%;
+      padding: auto;
+      margin: 0;
   }
+
   .header-content .right-header .name{
     font-size: 1rem ;
   }
