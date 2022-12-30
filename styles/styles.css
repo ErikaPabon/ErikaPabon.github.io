@@ -1061,7 +1061,7 @@ section {
   .header-content .right-header{
       grid-row: 1;
       width: 90%;
-      padding: auto;
+      padding: 1rem;
       margin: 0;
   }
 
