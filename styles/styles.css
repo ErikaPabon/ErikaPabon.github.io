@@ -1059,18 +1059,15 @@ section {
   }
 
   .header-content .right-header{
-      grid-row: 1;
-      width: 80%;
-      padding: auto;
-      margin: 0;
+    padding: 2rem 2.5rem ;
+    font-size: 2rem;
   }
 
   .header-content .right-header .name{
-    font-size: 1rem;
-    font-weight: 200;
+    font-size: 2rem;
   }
   .header-content .right-header .name span {
-    font-size: 1.5rem ;
+    font-size: 2rem ;
     font-weight: inherit;
   }
 
