@@ -312,6 +312,7 @@ section {
 .about-stats .progress-bars .progress-bar .prog-title {
   text-transform: uppercase;
   font-weight: 500;
+  color: var(--color-secondary);
 }
 .about-stats .progress-bars .progress-bar .progress-con {
   display: flex;
