@@ -676,7 +676,10 @@ section {
     align-self:flex-start;
     align-items: center;
     overflow: hidden;
-    .btn-text { padding: 0 2rem;}
+    .btn-text { 
+        padding: 0 2rem;
+        color: var(--color-grey-5);
+    }
     .btn-icon {
         background-color: var(--color-secondary);
         display: flex;
