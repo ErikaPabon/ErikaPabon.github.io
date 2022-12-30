@@ -220,7 +220,14 @@ section {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding-right: 18rem;
+  padding: auto;
+}
+.header-content .right-header .lang-btn{
+  top: 0px;
+  right: 20%;
+  padding: 1rem;
+  position: absolute;
+  display: flex;
 }
 .header-content .right-header .name {
   font-size: 3rem;
