@@ -460,7 +460,7 @@ section {
 .portfolios .portfolio-item img {
   width: 100%;
   height: 300px;
-  object-fit: cover;
+  object-fit: contain;
   border-radius: 15px;
 }
 .portfolios .portfolio-item .hover-items {
