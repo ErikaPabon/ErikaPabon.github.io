@@ -444,7 +444,10 @@ section {
 /*Portfolio*/
 .port-text {
   padding: 2rem 0;
-  text-align: center;
+  text-align:left;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  font-weight: bolder;
 }
 
 .portfolios {
@@ -456,6 +459,11 @@ section {
 .portfolios .portfolio-item {
   position: relative;
   border-radius: 15px;
+}
+.portfolios .portfolio-item h4{
+  padding: 0.5rem;
+  text-transform: uppercase;
+  color: var(--color-secondary);
 }
 .portfolios .portfolio-item img {
   width: 100%;
@@ -1082,7 +1090,7 @@ section {
   }
 
   .header-content .right-header{
-    padding: 2rem 0;
+    padding: 2rem 1rem;
     font-size: 1rem;
     margin: 0;
   }
