@@ -56,6 +56,25 @@ header {
   overflow: hidden;
   padding: 0 !important;
 }
+footer {
+  background-color: inherit;
+  color: var(--color-secondary);
+  text-align: center;
+}
+
+footer .copyright {
+  margin-bottom: 10px;
+}
+footer .contact-icons a {
+  margin-right: 10px;
+}
+
+footer .contact-icons {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  padding: 0 2rem;
+}
 
 section {
   min-height: 100vh;
@@ -675,6 +694,8 @@ section {
 }
 
 /*Independent components*/
+
+
 .btn-con {
   display: flex;
   align-self: flex-start;
