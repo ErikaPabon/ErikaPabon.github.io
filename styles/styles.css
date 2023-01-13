@@ -810,7 +810,7 @@ section {
     width: 90%;
   }
 
-  .controlls{
+  /*.controlls{
     top: auto;
     bottom: 0;
     flex-direction: row;
@@ -822,7 +822,7 @@ section {
   }
   .controlls .control{
     margin: 1rem .3rem;
-  }
+  }*/
   .about-container{
     grid-template-columns: repeat(1, 1fr);
   }
