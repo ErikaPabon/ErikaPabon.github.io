@@ -352,11 +352,15 @@
         }
     }
 
-    .header-content .left-header .image{
-        width: 100%;
+    .header-content {
         margin: 0;
-        margin-left: 2rem;
+        .left-header {
+            margin: 0;
+        }
+        .image{
+        width: 100%;
         padding-left: 2rem;
+        }
     }
     .about-container{
         grid-template-columns: 1fr;
