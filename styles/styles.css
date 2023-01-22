@@ -1130,10 +1130,10 @@ section {
     font-size: 1.2rem ;
     font-weight: inherit;
   }
-  .header-content .right-header .name p{
+  /*.header-content .right-header .name p{
     text-align: center;
     padding-left: 2rem;
-  }
+  }*/
 
   .header-content .left-header .image{
       width: 100%;
