@@ -806,7 +806,7 @@ section {
   padding-left: 0;
 }
 
-@media screen and (max-width: 600px) {
+@media only screen and (max-width: 600px) {
   header {
     padding: 0 !important;
   }
@@ -1102,8 +1102,10 @@ section {
   .header-content{
     grid-template-columns: 1fr;
     padding-bottom: 6rem;
-    margin: 0;
+    align-items: center;
     font-size: 1.2rem;
+    justify-content: center;
+    display: grid;
   }
   .header-content .left-header{
     padding: 0;
