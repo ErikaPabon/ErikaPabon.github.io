@@ -14,13 +14,13 @@
     .header-content{
         grid-template-columns: repeat(1, 1fr);
         padding-bottom: 6rem;
-    }
     .left-header{
         .image{
             padding-left: 2rem;
         }
         .h-shape{
             display: none;
+            }
         }
     }
     .right-header{
