@@ -1121,7 +1121,7 @@ section {
   }
 
   .header-content .right-header{
-    padding: 2rem 1rem;
+    padding: auto;
     font-size: 1rem;
     margin: 0;
   }
@@ -1133,10 +1133,15 @@ section {
     font-size: 1.2rem ;
     font-weight: inherit;
   }
+  .header-content .right-header .name p{
+    text-align: center;
+    padding: 0;
+  }
 
   .header-content .left-header .image{
       width: 90%;
       margin: 0;
+      padding-left: 1rem;
     }
   .about-container{
       grid-template-columns: 1fr;
