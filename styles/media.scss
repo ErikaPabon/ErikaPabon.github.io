@@ -329,6 +329,9 @@
         .name{
             font-size: 0.6rem;
         }
+        p{
+            padding-left: 2rem;
+        }
     }
 
     .theme-btn{
@@ -346,6 +349,7 @@
     .header-content .left-header .image{
         width: 90%;
         margin: 0;
+        padding-left: 2rem;
     }
     .about-container{
         grid-template-columns: 1fr;
