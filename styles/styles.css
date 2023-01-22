@@ -1028,24 +1028,6 @@ section {
   }
 }
 
-@media screen and (max-width:1070px){
-  .about-container{
-    grid-template-columns: repeat(1, 1fr);
-  }
-  .about-container.right-about{
-    padding-top: 2.5rem;
-  }
-  .main-title h2{
-    font-size: 4rem;
-  }
-  .main-title h2 span{
-    font-size: 4rem;
-  }
-  .main-title h2 .bg-text{
-    font-size: 4.5rem;
-  }
-}
-
 @media screen and (max-width: 970px){
   .container{
     padding: 7rem 6rem;
@@ -1147,7 +1129,7 @@ section {
   }
   .header-content .right-header .name p{
     text-align: center;
-    padding: 0;
+    padding-left: 2rem;
   }
 
   .header-content .left-header .image{
