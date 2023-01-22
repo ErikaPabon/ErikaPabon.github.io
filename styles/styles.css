@@ -1115,7 +1115,7 @@ section {
   }
 
   .header-content .right-header{
-    padding: auto;
+    /*padding: auto;*/
     font-size: 1rem;
     margin: 0;
   }
@@ -1134,7 +1134,7 @@ section {
   }
 
   .header-content .left-header .image{
-      width: 90%;
+      width: 100%;
       margin: 0;
       padding-left: 1rem;
     }
