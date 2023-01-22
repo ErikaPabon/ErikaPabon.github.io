@@ -16,6 +16,9 @@
         padding-bottom: 6rem;
     }
     .left-header{
+        .image{
+            padding-left: 2rem;
+        }
         .h-shape{
             display: none;
         }
@@ -29,6 +32,9 @@
             font-size: 1rem !important;
             text-align: center;
             padding-top: 3rem;
+        }
+        p {
+            padding-left: 2rem;
         }
     }
     
