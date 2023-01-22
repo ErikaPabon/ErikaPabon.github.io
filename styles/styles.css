@@ -846,6 +846,11 @@ section {
     width: 90%;
     padding-left: 1rem;
   }
+  .right-about{
+      grid-template-columns: repeat(1, 1fr);
+      padding-bottom: 6rem;
+      margin-top: 1rem;
+  }
 
   /*.controlls{
     top: auto;
@@ -943,6 +948,7 @@ section {
   .main-title h2 .bg-text{
     font-size: 2.3rem;
   }
+}
 
 @media screen and (max-width:1432px){
   .container{
