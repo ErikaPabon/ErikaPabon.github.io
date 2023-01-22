@@ -36,6 +36,12 @@
     .header-content .left-header .image{
         margin: 0 auto;
         width: 90%;
+        padding-left: 1rem;
+    }
+    .right-about{
+        grid-template-columns: repeat(1, 1fr);
+        padding-bottom: 6rem;
+        margin-top: 1rem;
     }
 
     .controlls{
@@ -353,6 +359,11 @@
                 padding-left: 0;
             }
         }
+    }
+    .right-about{
+            grid-template-columns: repeat(1, 1fr);
+            padding-bottom: 6rem;
+            margin-top: 1rem;
     }
 
     .timeline{
