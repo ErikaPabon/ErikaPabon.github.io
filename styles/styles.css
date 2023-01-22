@@ -834,11 +834,17 @@ section {
     font-size: 1.5rem ;
     text-align: center;
     padding-top: 3rem;
-    }
+  }
+  .header-content .right-header .name p{
+    font-size: 1.5rem ;
+    text-align: center;
+    padding-top: 3rem;
+    padding-left: 2rem;
   }
 
   .header-content .left-header .image{
     width: 90%;
+    padding-left: 1rem;
   }
 
   /*.controlls{
