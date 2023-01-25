@@ -324,8 +324,7 @@ section {
 .about-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  padding-top: 3rem;
-  padding-bottom: 3rem;
+  padding: 3.5rem 0;
 }
 
 .about-container .left-about {
@@ -476,7 +475,7 @@ section {
   text-align:left;
   font-size: 1.5rem;
   text-transform: uppercase;
-  font-weight: bolder;
+  font-weight: 500;
 }
 
 .portfolios {
