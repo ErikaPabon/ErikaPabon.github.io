@@ -3,7 +3,7 @@
 
 
 <p>Thank you for checking my Website repository. I have built my website from scrath, it uses HTML, CSS and JavaScript.</p><br>
-<img src="(https://github.com/ErikaPabon/ErikaPabon.github.io/blob/main/img/Website.gif" width=600 />
+<img src="https://github.com/ErikaPabon/ErikaPabon.github.io/blob/main/img/Website.gif" width=600 />
   
   <h2> <ul>My website features cool stuff like:</h2>
     <li> Toggles between light and dark mode</li>
