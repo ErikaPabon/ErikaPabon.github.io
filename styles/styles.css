@@ -711,7 +711,8 @@ section {
 
 .btn-con {
   display: flex;
-  align-self: flex-start;
+  align-items: center;
+  padding: 2rem 2rem;
 }
 
 .btn-con .submitButton {
@@ -1120,7 +1121,7 @@ section {
   }
 
   .header-content .right-header{
-    /*padding: auto;*/
+    padding: auto;
     font-size: 1rem;
     margin: 0;
   }
