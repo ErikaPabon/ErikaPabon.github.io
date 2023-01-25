@@ -1121,7 +1121,7 @@ section {
   }
 
   .header-content .right-header{
-    padding: auto;
+    padding: auto;/*last commit*/
     font-size: 1rem;
     margin: 0;
   }
