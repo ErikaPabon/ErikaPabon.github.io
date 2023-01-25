@@ -335,9 +335,13 @@ section {
   padding: 1rem;
   color: var(--color-grey-1);
 }
-.about-container .left-about h4 {
-  font-size: 2rem;
+.about-title h4 {
+  padding: 1rem;
   text-transform: uppercase;
+  color: var(--color-secondary);
+}
+.about-title .h4 .about-p{
+  padding: 1rem;
 }
 
 .about-stats {
