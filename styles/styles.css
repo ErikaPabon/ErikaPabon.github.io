@@ -1125,7 +1125,9 @@ section {
   }
 
   .header-content .right-header{
-    align-items: center;/*last commit*/
+    display: flex;
+    align-items: center; /* centers items horizontally */
+    justify-content: center; /* centers items vertically */
     margin: 0;
   }
 
