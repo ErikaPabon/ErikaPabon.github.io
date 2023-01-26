@@ -1135,7 +1135,7 @@ section {
     font-weight: inherit;
   }
   .header-content .right-header .name p{
-    text-align: center;
+    padding: 0.5rem;
   }
 
   .header-content .left-header .image{
