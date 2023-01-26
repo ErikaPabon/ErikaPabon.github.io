@@ -1125,7 +1125,7 @@ section {
   }
 
   .header-content .right-header{
-    padding: auto;/*last commit*/
+    align-items: center;/*last commit*/
     margin: 0;
   }
 
