@@ -1140,9 +1140,6 @@ section {
     font-size: 1.2rem ;
     font-weight: inherit;
   }
-  .header-content .right-header .name p{
-    padding: 0.5rem;
-  }
 
   .header-content .left-header .image{
       width: 100%;
