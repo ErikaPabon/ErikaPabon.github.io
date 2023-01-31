@@ -1130,6 +1130,13 @@ section {
     justify-content: center; /* centers items vertically */
     margin: 0 1.5rem;
   }
+  .header-content .right-header .lang-btn{
+    top: 0px;
+    right: 20%;
+    padding: 1rem;
+    position: absolute;
+    display: flex;
+  }
 
   .header-content .right-header .name{
     font-size: 1rem;
