@@ -265,6 +265,11 @@ section {
   padding-left: 1rem;
   text-align: center;
 }
+.header-content .right-header p span {
+  color: var(--color-secondary);
+  font-weight: bolder;
+  text-transform: uppercase;
+}
 .right-about {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
